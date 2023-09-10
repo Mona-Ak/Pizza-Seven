@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* styles/globals.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
+*/
+
+
+
+
+/* .image{
+  @apply relative border border-[#800000] m-auto
+
+} */
+
+.nav-image{
+  position: relative;
+  border: #800000 2px solid;
+  margin: 0 auto;
+}
+
+.nav-section{
+  @apply flex w-full gap-2 justify-end p-1 bg-black bg-opacity-50  absolute top-0
+}
+
+.nav-link{
+  @apply border border-[#FECD24] bg-[#FEE072] mx-1 my-auto rounded-3xl h-12 pt-2 px-5
+}
+
+.logo{
+  @apply mr-auto flex 
+}
+
+.nav-h1{
+  @apply mx-4 text-[#FEE072] text-xl
+}
+
+.menu-image-section{
+@apply flex flex-wrap justify-around
+}
+
+.nav{
+  background-color: #800000;
+}
+
+/* Tagesmenu */
+
+.tagesmenu-main{
+  margin: auto;
+  margin-top: 2rem;
+  width: 60%;
+  
+}
+
+.tagesmenu-h1{
+  background-color: #FEE072 ;
+  font-weight: bold;
+  color:#800000;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 3%;
+}
+
+.tagesmenu-container{
+  display: flex;
+  align-content: space-around;
+  margin-top: 2rem;
+}
+
+.tagesmenu-div{
+  background-color: #800000;
+}
+
+
+.tagesmenu-essen{
+  display: flex;
+}
+.tagesmenu-essen-h1{
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  background-color: orange;
+  font-weight: bold;
+}
+
+.tagesmenu-span{
+  margin-left: auto;
+  font-size: 18px;
+  background-color: orange;
+  font-weight: bold;
+}
+
+.tagesmenu-p{
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+}
+
+/* Contact */
+
+.contact-icon{
+  width: 20px;
+}
+.address-info{
+  background-color: rgb(128, 0, 0);
+  width: 50%;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.öffnungszeiten{
+  background-color: rgb(128, 0, 0);
+  width: 40%;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.time{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.contact-div{
+  display: flex;
+  color: #ffffff;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+.öffnung-div{
+  margin: 1rem;
+}
+
+.öffnung-p{
+  font-size: 30px;
+  margin-top: 0.4rem;
+}
+
+.contact-h1{
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 3rem;
+  padding: 0.6rem;
+}
+
+.contact-h2{
+  margin-left: 0.7rem;
+  width: 45%;
+}
+
+.contact-time{
+  /* margin-left: 4rem; */
+  width: 50%;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+
+/* Menu */
+
+.menu-section{
+  width: 100%;
+}
+
+.menu-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.menu-head{
+  background-color: #FEE072 ;
+  font-weight: bold;
+  color:#800000;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 3%;
+}
+
+.menu-image{
+  /* position: relative; */
+  /* align-content: center; */
+  border-radius: 10%;
+  height: 450px;
+}
+
+.menu-link{
+  width: 500px;
+  /* background-color: yellow; */
+  margin: 1rem;
+}
+
+
+
+.menu-h1{
+  position: relative;
+  top: -50%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  height: 5rem;
+  background-color: rgb(128, 0, 0, 0.7);
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 10px;
+  /* width: 50%; */
+}
+
+/* style for all */
+
+.section{
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: #800000; */
+}
+
+.head{
+  background-color: #FEE072 ;
+  font-weight: bold;
+  color:#800000;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+
+.paragraph{
+  background-color: rgb(128, 0, 0, 0.7);
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.image{
+  border-radius: 10%;
+  width: 90%;
+}
+
+.div{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 650px;
+}
+
+.div2{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: rgb(128, 0, 0, 0.7);
+  color: #ffffff;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.price-div{
+  display: flex;
+}
+
+.h2{
+  /* background-color: yellow; */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.span{
+  font-weight: none;
+  font-size: 13px;
+  
+}
+
+.price{
+  font-weight: bold;
+  width:5.5rem;
+  justify-self: right;
+  text-align: center;
+  /* background-color: yellow; */
+}
+
+/* Afghanische Menu */
+
+
+
+
+
+/* Burger Menu */
+
+
+/* getränke Menu */
+
+.getränke-h1{
+  background-color: #FEE072 ;
+  font-weight: bold;
+  color:#800000;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
