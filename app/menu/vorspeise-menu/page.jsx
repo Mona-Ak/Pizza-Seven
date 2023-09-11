@@ -1,5 +1,5 @@
 import Image from "next/image";
-import menu1 from "../../../public/images/Vorspeise1.jpg";
+// import menu1 from "../../../public/images/Vorspeise1.jpg";
 import kaschkbademjun from "../../../public/images/foods/Kaschk bademjan.jpg";
 import dolme from "../../../public/images/foods/Dolme.jpg";
 import homus from "../../../public/images/foods/Humus.jpg";
@@ -11,7 +11,7 @@ import kukusabzi from "../../../public/images/foods/kukusapzi.jpg";
 import buranibademjan from "../../../public/images/foods/buranibademjan.jpg";
 import buraniesfenaj from "../../../public/images/foods/boraniesfenaj.jpg";
 
-export const Vorspeise = () => {
+export const VorspeiseMenu = () => {
   return (
     <section className="section">
         <h1 className="head">Vorspeise Menu</h1>
@@ -92,4 +92,4 @@ export const Vorspeise = () => {
   )
 }
 
-export default Vorspeise;
+export default VorspeiseMenu;

@@ -11,7 +11,7 @@ import menu8 from "../../public/images/pizzamenu.jpg";
 import menu9 from "../../public/images/pizzavegimenu.jpg";
 import menu10 from "../../public/images/salatmenu.jpg";
 import menu11 from "../../public/images/shishamenu.jpg";
-import menu12 from "../../public/images/vorspeisemenu.jpg";
+import menu12 from "../../public/images/pish-ghaza.jpg";
 import menu13 from "../../public/images/weinmenu.jpg";
 
 
@@ -79,7 +79,7 @@ export const Menu = () => {
           <h1 className="menu-h1">Shisha Menu</h1>
         </Link>
 
-        <Link href="menu/vorspeise" className="menu-link">
+        <Link href="menu/vorspeise-menu" className="menu-link">
           <Image src={menu12} className="menu-image" />
           <h1 className="menu-h1">Vorspeise Menu</h1>
         </Link>
