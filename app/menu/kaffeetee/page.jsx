@@ -12,7 +12,7 @@ export const Kaffee = () => {
         <h1 className="head">Kaffe & Tee</h1>
           <div className="container">
             <div className="div">
-              <Image src={espresso} className="image" />
+              <Image alt="Espresso" src={espresso} className="image" />
               <div className="div2">
                 <h2 className="h2">Espresso</h2>
                 <h2 className="price">3.90 CHF</h2>
@@ -20,7 +20,7 @@ export const Kaffee = () => {
             </div>
 
             <div className="div">
-              <Image src={kaffee} className="image" />
+              <Image alt="Kaffee" src={kaffee} className="image" />
               <div className="div2">
                 <h2 className="h2">Kaffee</h2>
                 <h2 className="price">3.90 CHF</h2>
@@ -28,7 +28,7 @@ export const Kaffee = () => {
             </div>
 
             <div className="div">
-              <Image src={cappuccino} className="image" />
+              <Image alt="Cappuccino" src={cappuccino} className="image" />
               <div className="div2">
                 <h2 className="h2">Cappuccino</h2>
                 <h2 className="price">4.80 CHF</h2>
@@ -36,7 +36,7 @@ export const Kaffee = () => {
             </div>
 
             <div className="div">
-              <Image src={latte} className="image" />
+              <Image alt="Latte" src={latte} className="image" />
               <div className="div2">
                 <h2 className="h2">Lattee Macchiato</h2>
                 <h2 className="price">4.80 CHF</h2>
@@ -44,7 +44,7 @@ export const Kaffee = () => {
             </div>
 
             <div className="div">
-              <Image src={tee} className="image" />
+              <Image alt="Tee" src={tee} className="image" />
               <div className="div2">
                 <h2 className="h2">Diverse Tee</h2>
                 <h2 className="price">3.90 CHF</h2>

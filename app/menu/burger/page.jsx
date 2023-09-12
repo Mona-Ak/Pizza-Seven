@@ -14,7 +14,7 @@ export const Burger = () => {
     <div className="container">
 
       <div className="div">
-        <Image className="image" src={hamburger} />
+        <Image alt="Hamuburger" className="image" src={hamburger} />
         <div className="div2">
           <h2 className="h2">Burger Menu <br /><span className="span">2x Burger, 2x Käse, Pommes, 33cl Getränke</span></h2>
           <h2 className="price">20.50 CHF</h2>
@@ -22,7 +22,7 @@ export const Burger = () => {
       </div>
 
       <div className="div">
-        <Image className="image" src={chickennugget} />
+        <Image alt="Chicken Nugget" className="image" src={chickennugget} />
         <div className="div2">
           <h2 className="h2">Chicken Nuggets <br /><span className="span">Chicken Nuggets, Pommes, Currysauce/Cocktailsauce</span></h2>
           <h2 className="price">klein <br /> 8.50 CHF</h2>
@@ -31,7 +31,7 @@ export const Burger = () => {
       </div>
 
       <div className="div">
-        <Image className="image" src={chickenwings} />
+        <Image alt="Chicken Wings" className="image" src={chickenwings} />
         <div className="div2">
           <h2 className="h2">Chicken Wings <br /><span className="span">Chicken Wings, Pommes, Scharf/Süss Sauce</span></h2>
           <h2 className="price">klein <br />10.50 CHF</h2>
@@ -40,7 +40,7 @@ export const Burger = () => {
       </div>
 
       <div className="div">
-        <Image className="image" src={fischknusperli} />
+        <Image alt="Fisch Knusperli" className="image" src={fischknusperli} />
         <div className="div2">
           <h2 className="h2">Fisch Knusperli <br /><span className="span">Fisch Knusperli, Pommes, Tartarsauce</span></h2>
           <h2 className="price">klein <br />12.50 CHF</h2>
@@ -49,7 +49,7 @@ export const Burger = () => {
       </div>
 
       <div className="div">
-        <Image className="image" src={falafel} />
+        <Image alt="Falafel" className="image" src={falafel} />
         <div className="div2">
           <h2 className="h2">Falafel <br /><span className="span">Falafel mit Taschenbrot oder Fladenbrot oder mit Pommes auf Teller</span></h2>
           <h2 className="price">klein <br />8.50 CHF</h2>

@@ -17,7 +17,7 @@ export const Afghanische = () => {
       <div className="container">
 
         <div className="div">
-        <Image src={ghaboli} className="image"  />
+        <Image alt="Ghaboli" src={ghaboli} className="image"  />
           <div className="div2"  >
             <h2 className="h2">Qabli Polo <br /><span className="span">Kalbfleisch, Tomate, Reis, Rosine, Zwibel, Kreuzkümmel, Karotte</span></h2>
             <h2 className="price">25.00 CHF</h2>
@@ -25,7 +25,7 @@ export const Afghanische = () => {
         </div>
       
         <div className="div">
-          <Image src={mantu} className="image"  />
+          <Image alt="Mantu" src={mantu} className="image"  />
   
             <div className="div2">
               <h2 className="h2">Mantu <br /><span className="span">Mehl, Hackfleisch, Zwibbel, Kirchererbsen, Tomate, Linsen</span></h2>
@@ -34,7 +34,7 @@ export const Afghanische = () => {
         </div>
       
         <div className="div">
-          <Image src={kebab} className="image"  />
+          <Image alt="Kebab" src={kebab} className="image"  />
           <div className="div2">
             <h2 className="h2">Kebab <br /><span className="span">Grilltefleisch, Salat, Brot</span></h2>
             <h2 className="price">25.00 CHF</h2>
@@ -42,7 +42,7 @@ export const Afghanische = () => {
         </div>
       
         <div className="div">
-          <Image src={bolani} className="image"  />
+          <Image alt="Bolani" src={bolani} className="image"  />
           <div className="div2">
           <h2 className="h2">Bolani <br /><span className="span">Teig Gemüse</span></h2>
           <h2 className="price">5.00 CHF</h2>
@@ -50,7 +50,7 @@ export const Afghanische = () => {
         </div>
 
         <div className="div">
-          <Image src={afganischebolani} className="image"  />
+          <Image alt="Afghanische Bolani" src={afganischebolani} className="image"  />
           <div className="div2">
           <h2 className="h2">Bolani <br /><span className="span">Aubergine, Tomaten, Knoblauch, Joghurt Sauce</span></h2>
           <h2 className="price">12.99 CHF</h2>
@@ -58,7 +58,7 @@ export const Afghanische = () => {
         </div>
 
         <div className="div">
-          <Image src={afghanischesambosa} className="image"  />
+          <Image alt="Afghanische Sambosa" src={afghanischesambosa} className="image"  />
           <div className="div2">
           <h2 className="h2">Bolani <br /><span className="span">Teigtaschen, Kartoffeln, Zwiebeln, frischer Koriander</span></h2>
           <h2 className="price">5.00 CHF <br /> 6 Stück</h2>
@@ -66,7 +66,7 @@ export const Afghanische = () => {
         
         </div>
         <div className="div">
-          <Image src={koftachallaw} className="image"  />
+          <Image alt="Koftachallaw" src={koftachallaw} className="image"  />
           <div className="div2">
           <h2 className="h2">Bolani <br /><span className="span">Fleischbällchen, Reis, Hackfleisch, Zwiebeln, Tomate, Knoblauch</span></h2>
           <h2 className="price">21.95 CHF</h2>

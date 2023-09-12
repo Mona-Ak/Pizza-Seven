@@ -13,7 +13,7 @@ export const Dessert = () => {
       <div className="container">
 
         <div className="div">
-          <Image src={tiramisu} className="image"/>
+          <Image alt="Tiramisu" src={tiramisu} className="image"/>
           <div className="div2">
             <h2 className="h2">Tiramisu</h2>
             <h2 className="price" >8.00 CHF</h2>
@@ -21,28 +21,28 @@ export const Dessert = () => {
         </div>
 
         <div className="div">
-          <Image src={glace} className="image"/>
+          <Image alt="Glace" src={glace} className="image"/>
           <div className="div2">
             <h2 className="h2">Glace</h2>
             <h2 className="price">8.00 CHF</h2>
           </div>
         </div>
         <div className="div">
-          <Image src={safranbastani} className="image"/>
+          <Image alt="Safran Glace" src={safranbastani} className="image"/>
           <div className="div2">
             <h2 className="h2">Safran Glace</h2>
             <h2 className="price">10.00 CHF</h2>
           </div>
         </div>
         <div className="div">
-          <Image src={kuchen} className="image"/>
+          <Image alt="Kuchen" src={kuchen} className="image"/>
           <div className="div2">
             <h2 className="h2">Kuchen</h2>
             <h2 className="price">5.00 CHF</h2>
           </div>
         </div>
         <div className="div">
-          <Image src={falude} className="image"/>
+          <Image alt="Falude" src={falude} className="image"/>
           <div className="div2">
             <h2 className="h2">Falude</h2>
             <h2 className="price">8.00 CHF</h2>

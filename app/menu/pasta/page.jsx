@@ -13,7 +13,7 @@ export const Passta = () => {
         <div className="container">
 
           <div className="div">
-            <Image src={bologenese} className="image" />
+            <Image alt="Spaghetti Bolognese" src={bologenese} className="image" />
             <div className="div2">
               <h2 className="h2">Spaghetti Bolognese <br /><span className="span">Hackfleisch, Tomatensauce, Parmesan</span></h2>
               <h2 className="price">14.50 CHF</h2>
@@ -21,7 +21,7 @@ export const Passta = () => {
           </div>
 
           <div className="div">
-            <Image src={pouletcurry} className="image" />
+            <Image alt="Spaghetti Poulet Curry" src={pouletcurry} className="image" />
             <div className="div2">
             <h2 className="h2">Spaghetti Poulet Curry <br /><span className="span">Hähnchenbrust, Zwibbeln, Rahm, Parmesan</span></h2>
             <h2 className="price">14.50 CHF</h2>
@@ -29,7 +29,7 @@ export const Passta = () => {
           </div>
 
           <div className="div">
-            <Image src={pamodore} className="image" />
+            <Image alt="Spaghetti Pomodoro" src={pamodore} className="image" />
             <div className="div2">
             <h2 className="h2">Spaghetti Pomodoro <br /><span className="span">Pomodoro, Sauce, Parmesan</span></h2>
             <h2 className="price">14.50 CHF</h2>
@@ -37,7 +37,7 @@ export const Passta = () => {
           </div>
 
           <div className="div">
-            <Image src={pesto} className="image" />
+            <Image alt="Spaghetti Pesto" src={pesto} className="image" />
             <div className="div2">
               <h2 className="h2">Spaghetti Pesto <br /><span className="span">Pestosauce</span></h2>
               <h2 className="price">14.50 CHF</h2>

@@ -17,35 +17,35 @@ export const VorspeiseMenu = () => {
         <h1 className="head">Vorspeise Menu</h1>
         <div className="container">
           <div className="div">
-            <Image className="image" src={kaschkbademjun} />
+            <Image alt="Kaschke Bademjan" className="image" src={kaschkbademjun} />
             <div className="div2">
               <h2 className="h2"> Kaschke Bademjan <br /><span className="span">Aubergine, Rostzwibeln, Minz, Spezielsauce</span></h2>  
               <h2 className="price">8.00 CHF</h2>
             </div>
           </div>
           <div className="div">
-            <Image className="image" src={dolme} />
+            <Image alt="Dolme" className="image" src={dolme} />
             <div className="div2">
               <h2 className="h2">Dolme <br /><span className="span">Trabenblätter, Reis, Kräuter</span></h2>  
               <h2 className="price">8.00 CHF</h2>
             </div>
           </div>
           <div className="div">
-            <Image className="image" src={homus} />
+            <Image alt="Homus" className="image" src={homus} />
             <div className="div2">
               <h2 className="h2">Homus <br /><span className="span">Kichererbsen, Knoblauch, Oliven Öl, Zitronensaft</span></h2>  
               <h2 className="price">8.00 CHF</h2>
             </div>
           </div>
           <div className="div">
-            <Image className="image" src={olowiye} />
+            <Image alt="Olowiye" className="image" src={olowiye} />
             <div className="div2">
               <h2 className="h2">Olowiye <br /><span className="span">Hänchenbuerst, Kartofeln, Grünerbsen, Karotte, Gewürzgurken, Ei, Mayonnaise</span></h2>  
               <h2 className="price">8.00 CHF</h2>
             </div>
           </div>
           <div className="div">
-            <Image className="image" src={zeytunparvarde} />
+            <Image alt="Zeytun Parwarde" className="image" src={zeytunparvarde} />
             <div className="div2">
 
               <h2 className="h2"> Zeytun Parwarde <br /><span className="span">Oliven, Knoblauch, Oliven Öl, gemahlene Walnüsse, Granatapfelsause, Getroknete Kräuter,  Saurer Granatapfel</span></h2>  
@@ -53,35 +53,35 @@ export const VorspeiseMenu = () => {
             </div>
           </div>
           <div className="div">
-            <Image className="image" src={mastokhiar} />
+            <Image alt="Mast o Khiyar" className="image" src={mastokhiar} />
             <div className="div2">
               <h2 className="h2">Mast o Khiyar <br /><span className="span">Jogurt, Gurken, Walnuss, Minz</span></h2>  
               <h2 className="price">6.00 CHF</h2>
             </div>
           </div>
           <div className="div">
-            <Image className="image" src={mastomusir} />
+            <Image alt="Mast o Musir" className="image" src={mastomusir} />
             <div className="div2">
               <h2 className="h2">Mast o Musir <br /><span className="span">Jogurt, Schalotten</span></h2>  
               <h2 className="price">5.00 CHF</h2>
             </div>
           </div>
           <div className="div">
-            <Image className="image" src={kukusabzi} />
+            <Image alt="Kuku Sabzi" className="image" src={kukusabzi} />
             <div className="div2">
               <h2 className="h2">Kuku Sabzi <br /><span className="span">Petersilie, Koriander, Schnittlauch, Ei</span></h2>  
               <h2 className="price">8.00 CHF</h2>
             </div>
           </div>
           <div className="div">
-            <Image className="image" src={buranibademjan} />
+            <Image alt="Burani Bademjan" className="image" src={buranibademjan} />
             <div className="div2">
               <h2 className="h2">Burani Bademjan <br /><span className="span">Gegrillte, Aubergine, Knoblauch, Jogurt</span></h2>  
               <h2 className="price">5.00 CHF</h2>
             </div>
           </div>
           <div className="div">
-            <Image className="image" src={buraniesfenaj} />
+            <Image alt="Burani Esfenaj" className="image" src={buraniesfenaj} />
             <div className="div2">
               <h2 className="h2">Burani Esfenaj <br /><span className="span">Spinat, Knoblauch, Jogurt</span></h2>  
               <h2 className="price">5.00 CHF</h2>

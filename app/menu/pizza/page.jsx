@@ -16,7 +16,7 @@ export const Pizza = () => {
       <div className="container">
         
         <div className="div">
-          <Image className="image" />
+          <Image alt="Prosciutto" className="image" />
           <div className="div2">
             <h2 className="h2">Prosciutto <br /> <span className="span">Tomaten, Mozzarella, Schinken, Oregano</span></h2>
             <div className="price-div">
@@ -27,7 +27,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Occhi di Bue" className="image" />
           <div className="div2">
             <h2 className="h2">Occhi di Bue <br /> <span className="span">Tomaten, Mozzarella, Schinken, Eier, Oregano</span></h2>
             <div className="price-div">
@@ -38,7 +38,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Salamia" className="image" />
           <div className="div2">
             <h2 className="h2">Salamia <br /> <span className="span">Tomaten, Mozzarella, Salami, Oregano</span></h2>
             <div className="price-div">
@@ -49,7 +49,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Prosciutto e Fungi" className="image" />
           <div className="div2">
             <h2 className="h2">Prosciutto e Fungi <br /> <span className="span">Tomaten, Mozzarella, Schinken, Champignons, Oregano</span></h2>
             <div className="price-div">
@@ -60,7 +60,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Mescolare" className="image" />
           <div className="div2">
             <h2 className="h2">Mescolare <br /> <span className="span">Tomaten, Mozzarella, Schinken, Mascarpone, Spargeln</span></h2>
             <div className="price-div">
@@ -71,7 +71,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Calabrese" className="image" />
           <div className="div2">
             <h2 className="h2">Calabrese <br /> <span className="span">Tomaten, Mozzarella, Scharfe Salami, Oregano</span></h2>
             <div className="price-div">
@@ -82,7 +82,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Appetitosa" className="image" />
           <div className="div2">
             <h2 className="h2">Appetitosa <br /> <span className="span">Tomaten, Mozzarella, Salami, Gorgonzola</span></h2>
             <div className="price-div">
@@ -93,7 +93,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Minatore" className="image" />
           <div className="div2">
             <h2 className="h2">Minatore <br /> <span className="span">Tomaten, Mozzarella, Milde Salami, Zwiebeln, Oliven, Oregano</span></h2>
             <div className="price-div">
@@ -104,7 +104,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Hawaii" className="image" />
           <div className="div2">
             <h2 className="h2">Hawaii <br /> <span className="span">Tomaten, Mozzarella, Schinken, Ananas, Oregano</span></h2>
             <div className="price-div">
@@ -115,7 +115,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Quattro Stagioni" className="image" />
           <div className="div2">
             <h2 className="h2">Quattro Stagioni <br /> <span className="span">Tomaten, Mozzarella, Schinken, Pilze, Artischocken, Peperoni, Oliven, Oregano</span></h2>
             <div className="price-div">
@@ -126,7 +126,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Capriciosa" className="image" />
           <div className="div2">
             <h2 className="h2">Capriciosa <br /> <span className="span">Tomaten, Mozzarella, Schinken, Pilze, Artischocken, Oregano</span></h2>
             <div className="price-div">
@@ -137,7 +137,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Romagnola" className="image" />
           <div className="div2">
             <h2 className="h2">Romagnola <br /> <span className="span">Tomaten, Mozzarella, Schinken, Speck, Pilze, Oliven, Oregano</span></h2>
             <div className="price-div">
@@ -148,7 +148,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Nostrano" className="image" />
           <div className="div2">
             <h2 className="h2">Nostrano <br /> <span className="span">Tomaten, Mozzarella, Schinken, Spinat, Gorgonzola, Oregano</span></h2>
             <div className="price-div">
@@ -159,7 +159,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Parma" className="image" />
           <div className="div2">
             <h2 className="h2">Parma <br /> <span className="span">Tomaten, Mozzarella, Rohschinken, Parmesan, Oliven, Oregano</span></h2>
             <div className="price-div">
@@ -170,7 +170,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Olivia" className="image" />
           <div className="div2">
             <h2 className="h2">Olivia <br /> <span className="span">Tomaten, Mozzarella, Speck, Gorgonzola, Zwibbeln, Oliven, Oregano</span></h2>
             <div className="price-div">
@@ -181,7 +181,7 @@ export const Pizza = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image alt="Kebap " className="image" />
           <div className="div2">
             <h2 className="h2">Kebap <br /> <span className="span">Tomaten, Mozzarella, Kebapfleisch, Cocktailsauce </span></h2>
             <div className="price-div">
