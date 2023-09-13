@@ -23,30 +23,24 @@ export const Menu = () => {
       <h1 className="head">Menu</h1>
       
         <div className="menu-container">
+        <Link href="menu/vorspeise-menu" className="menu-link">
+          <Image alt="Vorspeise Menu" src={menu12} className="menu-image" />
+          <h1 className="menu-h1">Vorspeise Menu</h1>
+        </Link>
         
+        <Link href="menu/salat" className="menu-link">
+          <Image alt="Salat Menu" src={menu10} className="menu-image" />
+          <h1 className="menu-h1">Salat Menu</h1>
+        </Link>
+
+        <Link href="menu/persischemenu" className="menu-link">
+          <Image alt="Persische Menu" src={menu7} className="menu-image" />
+          <h1 className="menu-h1">Persische Menu</h1>
+        </Link>
+
         <Link href="menu/afghanischemenu" className="menu-link">
           <Image alt="Afghanische Menu" src={menu1} className="menu-image" />
           <h1 className="menu-h1">Afghanische Menu</h1>
-        </Link>
-
-        <Link href="menu/burger" className="menu-link">
-          <Image alt="Burger Menu" src={menu2} className="menu-image" />
-          <h1 className="menu-h1">Burger Menu</h1>
-        </Link>
-
-        <Link href="menu/dessert" className="menu-link">
-          <Image alt="Dessert Menu" src={menu3} className="menu-image" />
-          <h1 className="menu-h1">Dessert Menu</h1>
-        </Link>
-
-        <Link href="menu/drinks" className="menu-link">
-          <Image alt="Getränke Menu" src={menu4} className="menu-image" />
-          <h1 className="menu-h1">Getränke Menu</h1>
-        </Link>
-
-        <Link href="menu/kaffeetee" className="menu-link">
-          <Image alt="Kaffee & Getränke" src={menu5} className="menu-image" />
-          <h1 className="menu-h1">Kaffee & Getränke</h1>
         </Link>
 
         <Link href="menu/pasta" className="menu-link">
@@ -54,9 +48,9 @@ export const Menu = () => {
           <h1 className="menu-h1">Pasta Menu</h1>
         </Link>
 
-        <Link href="menu/persischemenu" className="menu-link">
-          <Image alt="Persische Menu" src={menu7} className="menu-image" />
-          <h1 className="menu-h1">Persische Menu</h1>
+        <Link href="menu/burger" className="menu-link">
+          <Image alt="Burger Menu" src={menu2} className="menu-image" />
+          <h1 className="menu-h1">Burger Menu</h1>
         </Link>
 
         <Link href="menu/pizza" className="menu-link">
@@ -69,9 +63,24 @@ export const Menu = () => {
           <h1 className="menu-h1">Pizza Vegetarisch Menu</h1>
         </Link>
 
-        <Link href="menu/salat" className="menu-link">
-          <Image alt="Salat Menu" src={menu10} className="menu-image" />
-          <h1 className="menu-h1">Salat Menu</h1>
+        <Link href="menu/dessert" className="menu-link">
+          <Image alt="Dessert Menu" src={menu3} className="menu-image" />
+          <h1 className="menu-h1">Dessert Menu</h1>
+        </Link>
+
+        <Link href="menu/drinks" className="menu-link">
+          <Image alt="Getränke Menu" src={menu4} className="menu-image" />
+          <h1 className="menu-h1">Getränke Menu</h1>
+        </Link>
+
+        <Link href="menu/wein" className="menu-link">
+          <Image alt="Wein" src={menu13} className="menu-image" />
+          <h1 className="menu-h1">Wein</h1>
+        </Link>
+
+        <Link href="menu/kaffeetee" className="menu-link">
+          <Image alt="Kaffee & Getränke" src={menu5} className="menu-image" />
+          <h1 className="menu-h1">Kaffee & Getränke</h1>
         </Link>
 
         <Link href="menu/shisha" className="menu-link">
@@ -79,15 +88,7 @@ export const Menu = () => {
           <h1 className="menu-h1">Shisha Menu</h1>
         </Link>
 
-        <Link href="menu/vorspeise-menu" className="menu-link">
-          <Image alt="Vorspeise Menu" src={menu12} className="menu-image" />
-          <h1 className="menu-h1">Vorspeise Menu</h1>
-        </Link>
 
-        <Link href="menu/wein" className="menu-link">
-          <Image alt="Wein" src={menu13} className="menu-image" />
-          <h1 className="menu-h1">Wein</h1>
-        </Link>
       </div>
       
 

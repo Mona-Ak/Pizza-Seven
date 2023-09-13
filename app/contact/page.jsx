@@ -60,7 +60,7 @@ export const Contact = () => {
                 <FontAwesomeIcon icon={faStar} className='contact-icon'/>
                 <h2>Bemerkung</h2>
               </div>
-              <p className='öffnung-p'>Bitte reservieren Sie mindestens einen Tag vor der Reservierung</p>
+              <p className='öffnung-p'>Bitte reservieren Sie mindestens einen Tag vor der Reservierung Nur für Persische und Afghanische Menu </p>
             </div>
           </div>
 
