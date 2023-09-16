@@ -13,19 +13,24 @@ import menu10 from "../../public/images/salatmenu.jpg";
 import menu11 from "../../public/images/shishamenu.jpg";
 import menu12 from "../../public/images/pish-ghaza.jpg";
 import menu13 from "../../public/images/weinmenu.jpg";
+import halal from "../../public/images/foods/Halal.jpg";
 
 
 
 
 export const Menu = () => {
   return (
-    <section className="menu-section">
-      <h1 className="head">Menu</h1>
+    <section className="section">
+      <div className="head-menus">
+        <h1 >Menu</h1>
+        <Image className="halal" src={halal} width={70} height={50} alt="halal" />
+      </div>
       
         <div className="menu-container">
         <Link href="menu/vorspeise-menu" className="menu-link">
           <Image alt="Vorspeise Menu" src={menu12} className="menu-image" />
           <h1 className="menu-h1">Vorspeise Menu</h1>
+            
         </Link>
         
         <Link href="menu/salat" className="menu-link">
@@ -80,7 +85,7 @@ export const Menu = () => {
 
         <Link href="menu/kaffeetee" className="menu-link">
           <Image alt="Kaffee & Getränke" src={menu5} className="menu-image" />
-          <h1 className="menu-h1">Kaffee & Getränke</h1>
+          <h1 className="menu-h1">Kaffee & Tee</h1>
         </Link>
 
         <Link href="menu/shisha" className="menu-link">

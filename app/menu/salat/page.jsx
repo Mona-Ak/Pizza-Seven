@@ -37,7 +37,7 @@ export const Salat = () => {
 
           </div>
           <div className="div">
-            <Image />
+            {/* <Image /> */}
             <div className="div2">
 
             <h2 className="h2">Avocado Brasil <br /><span className="span">Garnelen oder Hähnchen Brust, Avocado, Paprika, Tomaten, Limettensaft</span></h2>
@@ -49,7 +49,7 @@ export const Salat = () => {
 
           </div>
           <div className="div">
-            <Image />
+            {/* <Image /> */}
             <div className="div2">
 
             <h2 className="h2">Fitness Teller <br /><span className="span">Garnelen oder Hänchen Brust, Salat Blätter, Oliven, Zwibeln, Tomaten</span></h2>

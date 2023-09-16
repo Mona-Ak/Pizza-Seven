@@ -4,7 +4,7 @@ import Logo from "../public/images/logo.jpg";
 import background from "../public/images/image1.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
+import halal from "../public/images/foods/Halal.jpg"
 
 export const Nav = () => {
   return (
@@ -15,7 +15,8 @@ export const Nav = () => {
       <section className="nav-section">
       <Link href="/" className="logo" >
         <Image src= {Logo} width={70} height={70} alt="logo"  /> 
-        <h1 className="nav-h1">Pizza-Seven</h1>
+        <h1 className="nav-h1">Pizza-Seven</h1> 
+        
       </Link>
 
       <Link href="/" className="nav-link">
@@ -25,7 +26,7 @@ export const Nav = () => {
       <Link href="/menu" className="nav-link">
         <h2 >Menu</h2>         
       </Link>
-      
+
       <Link href="/contact" className="nav-link">
         <h2 >Contact</h2>         
       </Link>

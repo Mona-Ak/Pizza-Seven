@@ -7,11 +7,15 @@ import prosfungi from "../../../public/images/foods/prosciuttoefungi.jpg";
 // import hawaii from "../../../public/images/foods/";
 import minatore from "../../../public/images/foods/minatore.jpg";
 import hawaii from "../../../public/images/foods/pizzahawaii.jpg";
+import mascolare from "../../../public/images/foods/Mascolare.jpg";
+import calabrese from "../../../public/images/foods/calabrese.jpg";
+
 
 
 export const Pizza = () => {
   return (
     <section className="section">
+      
       <h1 className="head">Pizza Menu</h1>
       <div className="container">
         
