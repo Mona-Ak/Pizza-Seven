@@ -4,7 +4,7 @@ import Logo from "../public/images/logo.jpg";
 import background from "../public/images/image1.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import halal from "../public/images/foods/Halal.jpg"
+// import halal from "../public/images/foods/Halal.jpg";
 
 export const Nav = () => {
   return (
