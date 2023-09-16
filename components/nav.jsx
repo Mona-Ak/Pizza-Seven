@@ -17,12 +17,15 @@ export const Nav = () => {
         <Image src= {Logo} width={70} height={70} alt="logo"  /> 
         <h1 className="nav-h1">Pizza-Seven</h1>
       </Link>
+
       <Link href="/" className="nav-link">
         <h2 >Home</h2>         
       </Link>
+
       <Link href="/menu" className="nav-link">
         <h2 >Menu</h2>         
       </Link>
+      
       <Link href="/contact" className="nav-link">
         <h2 >Contact</h2>         
       </Link>

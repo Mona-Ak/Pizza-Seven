@@ -7,6 +7,7 @@ import ghormesabzi from "../../../public/images/foods/ghormesabzi.jpg";
 import fesenjan from "../../../public/images/foods/fesenjan.jpg";
 import khoreshtkarafs from "../../../public/images/foods/khoreshtkarafs.jpg";
 import aschreschte from "../../../public/images/foods/aschreschte.jpg";
+import zereschkpolo from "../../../public/images/foods/zereshkpolo.jpg"
 
 
 export const Persisch = () => {
@@ -80,6 +81,16 @@ export const Persisch = () => {
             <h2 className="h2">Asch Reschte <br /><span className="span">Petersilie, Koriander, Lauch, Nudel, Kichererbsen, Rote Bohnen, Linsen, Rostzwibeln, Minz, Spezialsause </span></h2>
             <div className="price-div">
               <h2 className="price">12.00 CHF</h2>
+            </div>
+          </div>
+        </div>
+
+        <div className="div">
+          <Image alt="Asch Reschte" src={zereschkpolo} className="image" />
+          <div className="div2">
+            <h2 className="h2">Zereschk Polo ba Morq <br /><span className="span">Hänchen, Reis mit Safran und Berberitze</span></h2>
+            <div className="price-div">
+              <h2 className="price">18.00 CHF</h2>
             </div>
           </div>
         </div>

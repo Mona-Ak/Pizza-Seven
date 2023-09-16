@@ -325,3 +325,23 @@
   width: 100%;
 }
 
+
+
+@media only screen and (max-width: 500px) {
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .öffnungszeiten{
+    width: 100%;
+    
+  }
+
+  .address-info{
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+}
