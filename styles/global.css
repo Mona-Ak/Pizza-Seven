@@ -43,9 +43,9 @@
   @apply mx-4 text-[#FEE072] text-xl
 }
 
-.menu-image-section{
+/* .menu-image-section{
 @apply flex flex-wrap justify-around
-}
+} */
 
 .nav{
   background-color: #800000;

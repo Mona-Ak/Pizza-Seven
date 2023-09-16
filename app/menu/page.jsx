@@ -13,7 +13,7 @@ import menu10 from "../../public/images/salatmenu.jpg";
 import menu11 from "../../public/images/shishamenu.jpg";
 import menu12 from "../../public/images/pish-ghaza.jpg";
 import menu13 from "../../public/images/weinmenu.jpg";
-import halal from "../../public/images/foods/Halal.jpg";
+// import halal from "../../public/images/foods/Halal.jpg";
 
 
 
@@ -23,7 +23,6 @@ export const Menu = () => {
     <section className="section">
       <div className="head-menus">
         <h1 >Menu</h1>
-        <Image className="halal" src={halal} width={70} height={50} alt="halal" />
       </div>
       
         <div className="menu-container">
