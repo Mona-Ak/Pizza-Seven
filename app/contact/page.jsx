@@ -75,6 +75,14 @@ export const Contact = () => {
             <FontAwesomeIcon icon={faPhone} className='contact-icon' />
             <h2 className='contact-h2'>052 659 39 34</h2>
           </div>
+          <div className='contact-div'>
+            <FontAwesomeIcon icon={faPhone} className='contact-icon' />
+            <h2 className='contact-h2'>076 805 48 89</h2>
+          </div>
+          <div className='contact-div'>
+            <FontAwesomeIcon icon={faPhone} className='contact-icon' />
+            <h2 className='contact-h2'>076 548 38 92</h2>
+          </div>
 
           <div className='contact-div'>
             <FontAwesomeIcon icon={faGlobe} className='contact-icon' />
