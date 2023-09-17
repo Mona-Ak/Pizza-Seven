@@ -9,6 +9,7 @@ import gorgonzola from "../../../public/images/foods/gorgonzola.jpg";
 import quatroformaggi from "../../../public/images/foods/quatroformaggi.jpg";
 import mexicana from "../../../public/images/foods/mexicana.jpg";
 import fresco from "../../../public/images/foods/fresco.jpg";
+import exotica from "../../../public/images/foods/exotica.jpg";
 
 
 export const PizzaVegi = () => {
@@ -106,7 +107,7 @@ export const PizzaVegi = () => {
         </div>
 
         <div className="div">
-          <Image className="image" />
+          <Image className="image" src={exotica} />
           <div className="div2">
             <h2 className="h2">Exotica <br /><span className="span">Tomaten, Mozzarella, Frische Tomaten, Knoblauch, Zwibeln, Pesto, Oregano</span></h2>
             <div className="price-div">
