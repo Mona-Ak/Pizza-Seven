@@ -20,7 +20,7 @@ export const Slider = () => {
     const images = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide11, slide13];
   return (
     <section className="slide">
-      <h1>Auto-Slider Image Carousel</h1>
+      
       <div className="image-slider">
         
         {images.map((image, index) => (
