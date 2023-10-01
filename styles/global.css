@@ -362,3 +362,30 @@
   }
 
 }
+
+
+/* Slideshow style */
+
+.slide{
+  overflow: hidden;
+}
+
+ .image-slider {
+  display: flex;
+  /* overflow: hidden; */
+  scroll-behavior: smooth;
+  animation: scroll 15s linear infinite;
+}
+
+.slideimage{
+  width: 300px;
+  transition: opacity 0.5s;
+  margin: 1rem;
+}
+
+@keyframes scroll{
+  0% {transform: translate(0);}
+  100% {transform: translateX(calc(-250px * 9));}
+}
+
+

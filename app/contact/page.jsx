@@ -41,13 +41,13 @@ export const Contact = () => {
               <div className='time'>
                 <FontAwesomeIcon icon={faClock} className='contact-icon' />
                 <h2 className='contact-h2'>Freitag </h2>
-                <h2 className='contact-time'>11:00 - 02:00</h2>
+                <h2 className='contact-time'>11:00 - 24:00</h2>
               </div>
 
               <div className='time'>
                 <FontAwesomeIcon icon={faClock} className='contact-icon' />
                 <h2 className='contact-h2'>Samstag </h2>
-                <h2 className='contact-time'>11:00 - 02:00</h2>
+                <h2 className='contact-time'>11:00 - 24:00</h2>
               </div>
 
               <div className='time'>

@@ -61,7 +61,7 @@ export const Afghanische = () => {
           <Image alt="Afghanische Sambosa" src={afghanischesambosa} className="image"  />
           <div className="div2">
           <h2 className="h2">Afghanische Sambosa (vegetarisch) <br /><span className="span">Teigtaschen, Kartoffeln, Zwiebeln, frischer Koriander</span></h2>
-          <h2 className="price">5.00 CHF <br /> 6 Stück</h2>
+          <h2 className="price">15.00 CHF <br /> 6 Stück</h2>
           </div>
         
         </div>
