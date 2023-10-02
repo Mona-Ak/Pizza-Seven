@@ -13,7 +13,7 @@ export const Home = () => {
 
           <Slider />  
 
-          <h1 className="head">Tagesmenu</h1>
+          {/* <h1 className="head">Tagesmenu</h1>
           
           <div className="container">
 
@@ -31,7 +31,7 @@ export const Home = () => {
             
 
             
-          </div>
+          </div> */}
             
         </section>
     
