@@ -330,6 +330,7 @@
 /* Burger Menu */
 
 
+
 /* getränke Menu */
 
 .getränke-h1{
@@ -385,7 +386,7 @@
 
 @keyframes scroll{
   0% {transform: translate(0);}
-  100% {transform: translateX(calc(-250px * 9));}
+  100% {transform: translateX(calc(-550px * 9));}
 }
 
 

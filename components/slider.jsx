@@ -13,11 +13,20 @@ import slide9 from "../public/images/slideshow/slideshow-9.jpeg";
 import slide11 from "../public/images/slideshow/slideshow-11.jpeg";
 // import slide12 from "../public/images/slideshow/slideshow-12.jpeg";
 import slide13 from "../public/images/slideshow/slideshow-13.jpeg";
+import slide14 from "../public/images/slideshow/slideshow-14.jpg";
+import slide15 from "../public/images/slideshow/slideshow_15.jpg";
+import slide16 from "../public/images/slideshow/slideshow_16.jpg";
+import slide17 from "../public/images/slideshow/slideshow_17.jpg";
+import slide18 from "../public/images/slideshow/slideshow_18.jpg";
+import slide19 from "../public/images/slideshow/slideshow_19.jpg";
+import slide20 from "../public/images/slideshow/slideshow_20.jpg";
+import slide21 from "../public/images/slideshow/slideshow_21.jpg";
+
 
 
 
 export const Slider = () => {
-    const images = [slide1, slide2, slide3,slide11, slide4, slide5, slide6, slide7, slide8, slide9, slide13];
+    const images = [slide1, slide2, slide3,slide11, slide4, slide5, slide6, slide7, slide8, slide9, slide13, slide14,slide15, slide16, slide17, slide18, slide19, slide20, slide21];
   return (
     <section className="slide">
       
