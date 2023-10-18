@@ -45,7 +45,7 @@ export const Getränke = () => {
           <div className="div">
             <Image className="image" />
             <div className="div2">
-            <h2 className="drinkmenu-h2">Iche Tea Lemon/Peach</h2>
+            <h2 className="drinkmenu-h2">Ich Tee Lemon/Peach</h2>
             <h2 className="price">4.00 CHF</h2>
             </div>
           </div>
@@ -128,7 +128,7 @@ export const Getränke = () => {
           <div className="div">
             <Image className="image" />
             <div className="div2">
-              <h2 className="drinkmenu-h2">Beineken <span>3.3 dl</span></h2>
+              <h2 className="drinkmenu-h2">Heineken <span>3.3 dl</span></h2>
               <h2 className="price">5.50 CHF</h2>
             </div>
           </div>
