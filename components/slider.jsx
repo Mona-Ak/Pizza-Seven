@@ -17,7 +17,7 @@ import slide13 from "../public/images/slideshow/slideshow-13.jpeg";
 
 
 export const Slider = () => {
-    const images = [slide1, slide2, slide3,slide13, slide4, slide5, slide6, slide7, slide8, slide9, slide11, ];
+    const images = [slide1, slide2, slide3,slide11, slide4, slide5, slide6, slide7, slide8, slide9, slide13];
   return (
     <section className="slide">
       
