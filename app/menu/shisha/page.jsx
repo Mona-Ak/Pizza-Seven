@@ -63,7 +63,7 @@ export const Shisha = () => {
             <h2 className="price">20.00 CHF</h2>
           </div>
           <div className="div2">
-            <h2 className="h2">Dabel Appel</h2>
+            <h2 className="h2">Dabel Apple</h2>
             <h2 className="price">20.00 CHF</h2>
           </div>
           <div className="div2">

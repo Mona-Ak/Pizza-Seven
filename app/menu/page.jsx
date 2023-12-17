@@ -43,10 +43,10 @@ export const Menu = () => {
           <h1 className="menu-h1">Persische Menu</h1>
         </Link>
 
-        <Link href="menu/afghanischemenu" className="menu-link">
+        {/* <Link href="menu/afghanischemenu" className="menu-link">
           <Image alt="Afghanische Menu" src={menu1} className="menu-image" />
           <h1 className="menu-h1">Afghanische Menu</h1>
-        </Link>
+        </Link> */}
 
         <Link href="menu/pasta" className="menu-link">
           <Image alt="Pasta Menu" src={menu6} className="menu-image" />
