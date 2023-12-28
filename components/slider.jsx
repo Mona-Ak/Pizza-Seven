@@ -42,6 +42,8 @@ export const Slider = () => {
           />))}
 
       </div>
+
+      
     </section>
   );
 }

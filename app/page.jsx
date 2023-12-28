@@ -32,6 +32,8 @@ export const Home = () => {
 
             
           </div> */}
+
+      <script type="text/javascript" src="https://services.gastronovi.com/restaurants/101186/scripts/reservation?width=800&height=600" async></script>
             
         </section>
     
