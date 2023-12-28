@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Slider from "@components/slider";
+import Script from "next/script";
 import food from "../public/images/foods/zereshkpolo.jpg";
 
 
@@ -33,7 +34,9 @@ export const Home = () => {
             
           </div> */}
 
-      <script type="text/javascript" src="https://services.gastronovi.com/restaurants/101186/scripts/reservation?width=800&height=600" async></script>
+       
+
+      {/* <script type="text/javascript" src="https://services.gastronovi.com/restaurants/101186/scripts/reservation?width=800&height=600" async></script> */}
             
         </section>
     

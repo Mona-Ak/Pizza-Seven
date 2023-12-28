@@ -31,6 +31,10 @@ export const Nav = () => {
         <h2 >Contact</h2>         
       </Link>
 
+      <Link href="/bestellung" className="nav-link">
+        <h2 >Online Bestellung</h2>         
+      </Link>
+
       </section>    
     
     </nav>
