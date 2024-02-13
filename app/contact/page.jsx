@@ -82,7 +82,7 @@ export const Contact = () => {
 
           <div className='contact-div'>
             <FontAwesomeIcon icon={faGlobe} className='contact-icon' />
-            <h2 className='contact-h2'>www.pizza-seven.ch</h2>
+            <h2 className='contact-h2'>www.restaurant-seven.ch</h2>
           </div>
         </div>
 
